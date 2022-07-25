@@ -1,0 +1,22 @@
+.nav-link {
+  text-transform: uppercase;
+  font-size: $unit__submedium * 0.75;
+  font-weight: 600;
+  padding-bottom: $unit__tiny;
+  transition: all 0.3s;
+
+  &:link,
+  &:visited {
+    color: $color__light;
+    border-bottom: 2px solid transparent;
+  }
+
+  &:hover,
+  &:active {
+    border-bottom: 2px solid $color__tertiary;
+  }
+}
+
+.selected:link {
+  border-bottom: 2px solid $color__tertiary;
+}

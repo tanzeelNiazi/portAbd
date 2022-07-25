@@ -1,13 +1,13 @@
 Hi 👋, I'm Tanzeel Akhtar, a passionate frontend developer from Pakistan.
 
-This is a **README** file of [Portfolio AbdulRahman](https://www.tanzeel.website). It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
+This is a **README** file of [Portfolio AbdulRahman](https://github.com/tanzeelNiazi/portAbd). It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
 
-# Project Name: Portfolio Abdullah
+# Project Name: Portfolio AbdulRahman
 
 - Simple & Modern Design for Portfolio Websites.
 - Desktop only.
 
-### Website Demo: [https://www.tanzeel.website](https://www.tanzeel.website)
+### Website Demo: [https://tanzeelniazi.github.io/portAbd/](https://tanzeelniazi.github.io/portAbd/)
 
 # Additional Information
 
