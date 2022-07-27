@@ -8,17 +8,33 @@
     <title>Portfolio AbdulRahman</title>
   </head>
   <body>
-    <header class="header">
-      <div class="navbar w120">
-        <nav class="navigation">
-          <a href="#" class="nav-link selected">Home</a>
-          <a href="#" class="nav-link">About</a>
-          <a href="#" class="nav-link">Works</a>
-          <a href="#" class="nav-link">Blog</a>
-          <a href="#" class="nav-link">Contact</a>
-        </nav>
-      </div>
-    </header>
-    <div id="root"></div>
+    <div id="root">
+      <header class="header">
+        <div class="navbar">
+          <nav class="navigation">
+            <a href="#" class="nav-link selected">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Works</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="portfolio">
+            <h3 class="portfolio__name">
+              my name is
+              <span class="name">abdulrahman</span>
+            </h3>
+            <h3 class="portfolio__profession">I'm a ui developer</h3>
+          </div>
+          <svg class="svg svg-dots">
+            <use xlink:href="./assets/svg-sprite.svg#dots"></use>
+          </svg>
+        </div>
+      </section>
+      <section class="section-sidebar"></section>
+    </div>
   </body>
 </html>

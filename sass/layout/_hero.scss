@@ -1,0 +1,49 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  min-height: 65rem;
+  background: url("../assets/hero-image.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.portfolio {
+  padding-top: $unit__huge;
+  padding-left: $unit__huge * 2;
+  z-index: 5;
+
+  &__name {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: $unit__huge;
+    font-weight: 200;
+    line-height: 0.9;
+    .name {
+      font-weight: 700;
+      display: block;
+    }
+  }
+
+  &__profession {
+    margin: $unit__normal auto;
+    text-transform: uppercase;
+    font-size: $unit__submedium;
+    font-weight: 900;
+    display: inline-block;
+    padding: $unit__normal $unit__huge;
+    background: $color__tertiary;
+  }
+}
+
+.hero::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 30%;
+  height: 100%;
+  background: lighten($color__primary, 15%);
+}

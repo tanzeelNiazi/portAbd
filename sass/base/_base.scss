@@ -3,7 +3,7 @@
 *::after {
   padding: 0;
   margin: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -19,7 +19,15 @@ a {
   color: $color__dark;
 }
 
-.w120 {
+#root {
+  position: relative;
   margin: auto;
   width: 120rem;
+}
+
+.svg {
+  fill: #fff;
+  stroke: #fff;
+  width: 3.2rem;
+  height: 3.2rem;
 }
