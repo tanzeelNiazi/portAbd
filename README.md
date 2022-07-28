@@ -44,3 +44,4 @@ Following Images/Designs/Icons are used for creation of this website:
 
 - [Website Design Inspiration](https://www.behance.net/gallery/79069747/My-Portfolio-Website-UXUI)
 - [Grayscale Photo](https://www.pexels.com/photo/grayscale-photo-of-a-man-looking-at-camera-8661047/)
+- [Man on Bike](https://www.pexels.com/photo/grayscale-photo-of-a-man-sitting-on-a-motorcycle-7823937/)

@@ -1,5 +1,12 @@
-.section-header {
+.header-section {
   position: relative;
-  width: 120rem;
-  margin: auto;
+}
+
+.section-who-am-i {
+  background: lighten($color__secondary, 40%);
+  width: 100%;
+  min-height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

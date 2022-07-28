@@ -6,3 +6,9 @@
   height: 12.8rem;
   z-index: 5;
 }
+
+.svg-waves {
+  width: 12.8rem;
+  height: 12.8rem;
+  fill: lighten($color__secondary, 10%);
+}

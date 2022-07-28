@@ -9,32 +9,61 @@
   </head>
   <body>
     <div id="root">
-      <header class="header">
-        <div class="navbar">
-          <nav class="navigation">
-            <a href="#" class="nav-link selected">Home</a>
-            <a href="#" class="nav-link">About</a>
-            <a href="#" class="nav-link">Works</a>
-            <a href="#" class="nav-link">Blog</a>
-            <a href="#" class="nav-link">Contact</a>
-          </nav>
-        </div>
-      </header>
-      <section class="section-hero">
-        <div class="hero">
-          <div class="portfolio">
-            <h3 class="portfolio__name">
-              my name is
-              <span class="name">abdulrahman</span>
-            </h3>
-            <h3 class="portfolio__profession">I'm a ui developer</h3>
+      <div class="header-section">
+        <header class="header">
+          <div class="navbar">
+            <nav class="navigation">
+              <a href="#" class="nav-link selected">Home</a>
+              <a href="#" class="nav-link">About</a>
+              <a href="#" class="nav-link">Works</a>
+              <a href="#" class="nav-link">Blog</a>
+              <a href="#" class="nav-link">Contact</a>
+            </nav>
           </div>
-          <svg class="svg svg-dots">
-            <use xlink:href="./assets/svg-sprite.svg#dots"></use>
-          </svg>
+        </header>
+        <section class="section-hero">
+          <div class="hero">
+            <div class="portfolio">
+              <h3 class="portfolio__name">
+                my name is
+                <span class="name">abdulrahman</span>
+              </h3>
+              <h3 class="portfolio__profession">I'm a ui developer</h3>
+            </div>
+            <svg class="svg svg-dots">
+              <use xlink:href="./assets/svg-sprite.svg#dots"></use>
+            </svg>
+          </div>
+        </section>
+      </div>
+      <section class="section-who-am-i">
+        <div class="who-am-i grid grid__2-cols">
+          <div class="image-wrapper">
+            <img src="./assets/who-am-i.jpg" alt="AbdulRahman" class="image" />
+          </div>
+          <div class="bio">
+            <div class="bio__header">
+              <h3 class="bio__header__title">who am i <span>hello</span></h3>
+              <svg class="svg svg-waves">
+                <use xlink:href="./assets/svg-sprite.svg#waves"></use>
+              </svg>
+            </div>
+            <div class="bio__detail">
+              <p>
+                I am a ui developer, It is a long time fact that a reader will
+                be distracted by the readable content of a page when looking at
+                its layout. The point of using Lorem Ipsum is that it has a
+                more-or-less normal distribution.
+              </p>
+              <p>
+                It is a fact that a reader will be distracted by the readable
+                content of a page when looking at its layout. The point of using
+                Lorem Ipsum is that it has a more-or-less normal distribution.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="section-sidebar"></section>
     </div>
   </body>
 </html>

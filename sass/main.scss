@@ -1,11 +1,13 @@
 @import "./abstracts/variables";
 @import "./abstracts/typography";
 
+@import "./base/grid";
 @import "./base/base";
 
+@import "./components/svgs";
 @import "./components/navigation";
 @import "./components/nav-link";
-@import "./components/svgs";
+@import "./components/who-am-i";
 
 @import "./layout/header";
 @import "./layout/hero";
