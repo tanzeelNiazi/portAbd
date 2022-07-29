@@ -1,0 +1,51 @@
+.works {
+  gap: $unit__normal;
+}
+
+.work {
+  cursor: pointer;
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  overflow: hidden;
+
+  .image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .work-detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(25rem);
+    background: rgba($color__tertiary, 0.6);
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__title {
+      text-transform: capitalize;
+    }
+
+    &__desc {
+      margin: $unit__small auto;
+      text-align: center;
+    }
+  }
+
+  &:hover .work-detail {
+    transform: translateY(0);
+  }
+}

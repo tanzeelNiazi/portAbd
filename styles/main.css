@@ -157,6 +157,52 @@ a {
   font-weight: 500;
 }
 
+.works {
+  gap: 1.6rem;
+}
+
+.work {
+  cursor: pointer;
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  overflow: hidden;
+}
+.work .image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  height: 25rem;
+}
+.work .image {
+  width: 100%;
+}
+.work .work-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(25rem);
+  background: rgba(254, 242, 0, 0.6);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.work .work-detail__title {
+  text-transform: capitalize;
+}
+.work .work-detail__desc {
+  margin: 0.8rem auto;
+  text-align: center;
+}
+.work:hover .work-detail {
+  transform: translateY(0);
+}
+
 .header {
   position: relative;
   display: flex;
@@ -227,6 +273,42 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-works {
+  padding: 4.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.my-work__title {
+  text-transform: uppercase;
+  font-size: 4.8rem;
+  font-weight: 900;
+}
+.my-work__sub-title {
+  position: relative;
+  margin-left: 9.6rem;
+  margin-bottom: 1.6rem;
+  z-index: 1;
+}
+.my-work__sub-title::after {
+  position: absolute;
+  top: 0;
+  left: -0.5rem;
+  display: block;
+  content: "";
+  background: #fef200;
+  width: 100%;
+  height: 60%;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=main.css.map */
