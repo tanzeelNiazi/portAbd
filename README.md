@@ -54,5 +54,6 @@ Following Images/Designs/Icons are used for creation of this website:
 - [Designer Books](https://www.pexels.com/photo/love-books-designer-time-10622625/)
 - [book shelves](https://www.pexels.com/photo/wooden-book-shelves-with-books-10027580/)
 - [Brown Wooden](https://www.pexels.com/photo/brown-wooden-framed-on-brown-wooden-shelf-9704117/)
+- [using macbook](https://www.pexels.com/photo/photography-of-person-using-macbook-1251834/)
 
 - []()

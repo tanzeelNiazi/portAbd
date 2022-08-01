@@ -1,0 +1,77 @@
+.footer-svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: #fff;
+}
+
+.social-svg {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.footer {
+  padding: $unit__normal;
+}
+
+.email,
+.phone,
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__small;
+}
+
+.email,
+.phone,
+.social-media {
+  align-self: center;
+  justify-self: center;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: $unit__submedium;
+
+  &__title {
+    span {
+      display: inline-block;
+      background: $color__tertiary;
+      color: #000;
+      padding: $unit__tiny $unit__small;
+    }
+
+    span + span {
+      display: block;
+      background: transparent;
+      font-size: $unit__large * 0.75;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 0;
+    }
+  }
+}
+
+.attribution {
+  width: 100%;
+  height: 8rem;
+  text-align: right;
+  background: $color__primary;
+  color: $color__light;
+  padding: $unit__normal;
+}
+
+.tanzeel {
+  display: inline-block;
+  padding: $unit__small;
+  background: $color__tertiary;
+  font-weight: 500;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: rotateZ(-15deg) scale(1.05);
+  }
+}

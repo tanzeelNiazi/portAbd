@@ -262,6 +262,79 @@ a {
   background: #3d3d3d;
 }
 
+.footer-svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: #fff;
+}
+
+.social-svg {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.footer {
+  padding: 1.6rem;
+}
+
+.email,
+.phone,
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.email,
+.phone,
+.social-media {
+  align-self: center;
+  justify-self: center;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.social-media__title span {
+  display: inline-block;
+  background: #fef200;
+  color: #000;
+  padding: 0.4rem 0.8rem;
+}
+.social-media__title span + span {
+  display: block;
+  background: transparent;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0;
+}
+
+.attribution {
+  width: 100%;
+  height: 8rem;
+  text-align: right;
+  background: #171717;
+  color: #ffffff;
+  padding: 1.6rem;
+}
+
+.tanzeel {
+  display: inline-block;
+  padding: 0.8rem;
+  background: #fef200;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.tanzeel:hover {
+  transform: rotateZ(-15deg) scale(1.05);
+}
+
 .header-section {
   position: relative;
 }
@@ -309,6 +382,108 @@ a {
   width: 100%;
   height: 60%;
   z-index: -1;
+}
+
+.section-newsletter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50rem;
+}
+
+.newsletter__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50rem;
+  background: url("../assets/using-macbook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  filter: opacity(0.3) brightness(0.7);
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.newsletter__title {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.newsletter__title span {
+  position: relative;
+  font-size: 4.8rem;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.newsletter__title span::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 40%;
+  background: #fef200;
+  z-index: -1;
+}
+.newsletter__description {
+  font-size: 2.4rem;
+  margin: 1.6rem auto;
+  text-align: center;
+}
+.newsletter__field {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 5px rgba(68, 68, 68, 0.25);
+}
+
+.newsletter__email {
+  border: 0;
+  outline: 0;
+  padding: 0 1.6rem;
+  height: 4rem;
+  width: 65%;
+  border-radius: 5px 0 0 5px;
+}
+.newsletter__email:focus {
+  box-shadow: 0 0 0 1px #444;
+}
+
+.newsletter__button {
+  cursor: pointer;
+  border: 0;
+  height: 4rem;
+  padding: 0 1.6rem;
+  background: #fef200;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.6rem;
+  width: 35%;
+  border-radius: 0 5px 5px 0;
+}
+.newsletter__button:hover {
+  background: #efe300;
+}
+
+.section-footer {
+  width: 100%;
+  min-height: 30rem;
+  background: #171717;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */
